@@ -1,0 +1,60 @@
+.movie-container {
+    max-width: 400px;
+    margin: 20px;
+    /* margin-top: 60px; */
+}
+
+.movie-poster{
+    font-size: 40px;
+    z-index: 0;
+    position: relative;
+    text-align: left;
+    width: 300px;
+}
+
+.movie-poster img {
+    max-width: 300px;
+    height: 450px;
+    flex-wrap: wrap;
+}
+
+.movie-poster .heart {
+    position: absolute;
+    z-index: 10;
+    margin-top: -10px;
+    right: 15px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.movie-poster .heart .active {
+    position: absolute;
+    z-index: 10;
+    margin-top: -10px;
+    right: 15px;
+    font-size: 60px;
+    cursor: pointer;
+    color: red;
+}
+
+
+.movie-poster .movie-title {
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.movie-poster .movie-release_date {
+    font-size: 24px;
+}
+
+.movie-poster .movie-overview {
+    font-size: 20px;
+    text-align: left;
+    color: grey
+}
+
+.movie-poster .movie-popularity {
+    font-size: 24px;
+    text-align: left;
+}

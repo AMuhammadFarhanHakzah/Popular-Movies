@@ -1,0 +1,18 @@
+.home-container {
+    margin-top: 40px;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.searchInput {
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid transparent;
+    width: 20rem;
+    border-radius: 8px;
+}

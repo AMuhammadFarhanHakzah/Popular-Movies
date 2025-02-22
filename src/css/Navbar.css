@@ -1,0 +1,32 @@
+.navbar-container {
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 120vw;
+    z-index: 1;
+    background-color: rgb(36, 36, 36);
+}
+
+.navbar {
+    display: flex;
+    width: 1280px;
+    font-weight: bold;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.navbar div {
+    padding: 21px;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar div:hover {
+    background-color: grey;
+}
