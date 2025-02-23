@@ -1,0 +1,13 @@
+
+.favorite-heading {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.favorite-movies {
+    /* margin-top: 120px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
